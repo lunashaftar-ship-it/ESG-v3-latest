@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", Arial, sans-serif;
+  --spacing-header: 52px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter);
+  }
+}
+
+@utility container-lg {
+  max-width: 768px;
+  margin-inline: 1.5rem;
+
+  @media (width >= 768px) {
+    max-width: 1024px;
+    width: calc(768px - 2 * 1.5rem);
+    margin-inline: auto;
+  }
+
+  @media (width >= 1024px) {
+    max-width: 1280px;
+    width: calc(1024px - 2 * 1.5rem);
+  }
+
+  @media (width >= 1280px) {
+    max-width: 1440px;
+    width: calc(1280px - 2 * 1.5rem);
+  }
+}
+
+@utility mt-header {
+  margin-top: var(--spacing-header);
+}

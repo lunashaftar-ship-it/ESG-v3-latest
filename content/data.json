@@ -1,0 +1,1423 @@
+{
+  "company": {
+    "name": "Apple Inc.",
+    "logo": "/img/logo.svg"
+  },
+  "pages": [
+    {
+      "slug": "ceo-statement",
+      "title": "CEO Statement",
+      "name": "Lisa Jackson",
+      "role": "VP, Environment, Policy and Social Initiatives",
+      "imgSrc": "/img/ceo-1.jpg",
+      "header": "At Apple, we are constantly innovating to make the world's best technology while reducing our impact on the environment.",
+      "paragraphs": [
+        "Every year, teams across our company find new and innovative ways to make our technology better for people and the planet. That progress has brought us closer than ever to Apple 2030: our goal to become carbon neutral for our global footprint, including our supply chain and the energy our customers use to power their devices.",
+        "Thanks to these efforts, I'm proud to share that Apple has now cut our overall emissions by more than 60 percent since 2015. This report covers the work that makes a milestone like that possible. It describes in detail how we continue to dramatically reduce our climate impact, while helping accelerate a global transition toward recycled materials and renewable energy.",
+        "Since 2018, we've powered every Apple facility with renewable energy — including our offices, retail stores, and data centers. That progress is quickly making its way across our global supply chain, and today, our suppliers now support more than 17.8 gigawatts of clean energy around the world.",
+        "To drive down carbon emissions even further, we're using more recycled materials than ever before. We now use 99 percent recycled rare earth elements in the magnets across our products. We've also continued to scale the use of recycled materials like tungsten, aluminum, cobalt, gold, and lithium.",
+        "In October, we unveiled our latest carbon neutral product, Mac mini, which is made with more than 50 percent recycled content and manufactured with electricity exclusively sourced from renewable energy. That's helped reduce the carbon footprint of Mac mini by 80 percent from our business-as-usual scenario.",
+        "At Apple, we've always believed that innovation is a powerful force for progress. So we'll continue to do our part to protect the planet — and to build a better future for generations to come."
+      ]
+    },
+    {
+      "slug": "environment",
+      "title": "Overview",
+      "header": "Climate & Environment",
+      "intro": "Apple has reduced its entire carbon footprint by more than 60 percent compared with its 2015 baseline — without offsets. During the same period, revenue grew by more than 65 percent. Our goal is carbon neutrality across our entire footprint by 2030.",
+      "kpis": [
+        {
+          "value": "-60%",
+          "label": "Total emissions vs 2015 baseline"
+        },
+        {
+          "value": "41 Mt",
+          "label": "Emissions avoided in 2024"
+        },
+        {
+          "value": "17.8 GW",
+          "label": "Supplier clean energy capacity"
+        },
+        {
+          "value": "24%",
+          "label": "Recycled materials in products"
+        }
+      ],
+      "pillars": [
+        {
+          "icon": "emissions",
+          "title": "Apple 2030",
+          "body": "75% gross emissions reduction by 2030 vs 2015. Science Based Targets initiative validated. Carbon neutral for corporate operations since 2020."
+        },
+        {
+          "icon": "energy",
+          "title": "Electricity",
+          "body": "100% renewable energy for all Apple facilities since 2018. Suppliers generated 31.3 million MWh of clean energy in FY2024."
+        },
+        {
+          "icon": "materials",
+          "title": "Design & Materials",
+          "body": "24% of materials shipped in products from recycled sources. 99% recycled rare earth elements in all magnets."
+        },
+        {
+          "icon": "water",
+          "title": "Resources",
+          "body": "Freshwater replenishment: 40% achieved toward 100% by 2030. Corporate waste diversion rate: 70%. Zero landfill at all final assembly sites."
+        }
+      ]
+    },
+    {
+      "slug": "environment/emissions",
+      "title": "Climate & Emissions",
+      "eyebrow": "Apple 2030 · Carbon Footprint",
+      "header": "Progress toward carbon neutrality",
+      "body": [
+        "Apple has reduced its entire carbon footprint by more than 60 percent compared with its 2015 baseline — without offsets. During the same period, revenue grew by more than 65 percent. The goal is a 75 percent reduction in gross emissions by 2030, after which remaining emissions will be balanced with high-quality carbon removals to reach full carbon neutrality.",
+        "In 2024 alone, environmental programs avoided 41 million metric tons of emissions — led by supplier clean energy transitions (21.8M mt), direct emissions abatement (8.4M mt), and low-carbon materials (6.2M mt)."
+      ],
+      "kpis": [
+        {
+          "value": "38.4 Mt",
+          "label": "Gross emissions, 2015 baseline"
+        },
+        {
+          "value": "15.3 Mt",
+          "label": "Gross emissions, 2024"
+        },
+        {
+          "value": "14.5 Mt",
+          "label": "Net emissions, 2024 (after 0.7 Mt offsets)"
+        },
+        {
+          "value": "41 Mt",
+          "label": "Total emissions avoided in 2024"
+        }
+      ],
+      "chart": {
+        "type": "composedBar",
+        "yLabel": "Million metric tons CO₂e",
+        "data": [
+          {
+            "year": 2015,
+            "gross": 38.4,
+            "avoided": null,
+            "projected": null
+          },
+          {
+            "year": 2016,
+            "gross": 35.2,
+            "avoided": 3,
+            "projected": null
+          },
+          {
+            "year": 2017,
+            "gross": 31,
+            "avoided": 8,
+            "projected": null
+          },
+          {
+            "year": 2018,
+            "gross": 25.2,
+            "avoided": 14,
+            "projected": null
+          },
+          {
+            "year": 2019,
+            "gross": 25.1,
+            "avoided": 18,
+            "projected": null
+          },
+          {
+            "year": 2020,
+            "gross": 22.6,
+            "avoided": 22,
+            "projected": null
+          },
+          {
+            "year": 2021,
+            "gross": 21.3,
+            "avoided": 26,
+            "projected": null
+          },
+          {
+            "year": 2022,
+            "gross": 20.6,
+            "avoided": 31,
+            "projected": null
+          },
+          {
+            "year": 2023,
+            "gross": 15.8,
+            "avoided": 37,
+            "projected": null
+          },
+          {
+            "year": 2024,
+            "gross": 15.3,
+            "avoided": 41,
+            "projected": 15.3
+          },
+          {
+            "year": 2026,
+            "gross": null,
+            "avoided": null,
+            "projected": 13.2
+          },
+          {
+            "year": 2028,
+            "gross": null,
+            "avoided": null,
+            "projected": 11.4
+          },
+          {
+            "year": 2030,
+            "gross": null,
+            "avoided": null,
+            "projected": 9.6
+          }
+        ]
+      },
+      "scopeBreakdown": {
+        "title": "FY2024 corporate emissions by scope",
+        "unit": "metric tons CO₂e",
+        "data": [
+          {
+            "name": "Scope 1",
+            "value": 55200,
+            "pct": 8.3
+          },
+          {
+            "name": "Scope 2 (market)",
+            "value": 3300,
+            "pct": 0.5
+          },
+          {
+            "name": "Scope 3",
+            "value": 608300,
+            "pct": 91.2
+          }
+        ]
+      },
+      "legend": [
+        {
+          "color": "#1d1d1f",
+          "label": "Gross emissions (historical)",
+          "dashed": false
+        },
+        {
+          "color": "#1a7f37",
+          "label": "2024 (latest)",
+          "dashed": false
+        },
+        {
+          "color": "#d1fae5",
+          "label": "Avoided emissions",
+          "dashed": false
+        },
+        {
+          "color": "#1a7f37",
+          "label": "Projected path to 2030 goal",
+          "dashed": true
+        }
+      ],
+      "footnote": "Gross emissions cover scopes 1, 2, and 3. Net emissions = gross minus carbon offsets/removals. Avoided emissions estimated vs. a business-as-usual scenario. Source: Apple Environmental Progress Report, Fiscal Year 2024."
+    },
+    {
+      "slug": "environment/energy",
+      "title": "Energy & Renewables",
+      "eyebrow": "Electricity · Renewables",
+      "header": " renewable energy for all Apple facilities since 2020",
+      "body": [
+        "Apple's retail stores, data centers, and offices around the world source 100 percent renewable electricity. The Supplier Clean Energy Program has driven suppliers to generate 31.3 million MWh of clean energy in FY2024, supporting 17.8 gigawatts of capacity worldwide.",
+        "The Supplier Energy Efficiency Program has achieved more than 2.5 billion kilowatt-hours of electricity savings since 2015. In FY2024, Apple facilities saved 298,358 MWh per year from efficiency measures."
+      ],
+      "kpis": [
+        {
+          "value": "100%",
+          "label": "Renewable electricity, Apple facilities (since 2018)"
+        },
+        {
+          "value": "17.8 GW",
+          "label": "Supplier clean energy capacity"
+        },
+        {
+          "value": "31.3M MWh",
+          "label": "Supplier clean energy generated, FY2024"
+        },
+        {
+          "value": "298K MWh",
+          "label": "Annual savings from Apple efficiency program, FY2024"
+        }
+      ],
+      "energyTrend": {
+        "type": "bar",
+        "yLabel": "MWh (thousands)",
+        "data": [
+          {
+            "year": 2020,
+            "total": 2580
+          },
+          {
+            "year": 2021,
+            "total": 2854
+          },
+          {
+            "year": 2022,
+            "total": 3199
+          },
+          {
+            "year": 2023,
+            "total": 3487
+          },
+          {
+            "year": 2024,
+            "total": 3777
+          }
+        ]
+      },
+      "supplierEnergy": {
+        "type": "bar",
+        "yLabel": "GW capacity",
+        "data": [
+          {
+            "year": 2019,
+            "operational": 2.7,
+            "committed": 5.1
+          },
+          {
+            "year": 2020,
+            "operational": 4.5,
+            "committed": 7.9
+          },
+          {
+            "year": 2021,
+            "operational": 10.3,
+            "committed": 15.9
+          },
+          {
+            "year": 2022,
+            "operational": 13,
+            "committed": 16
+          },
+          {
+            "year": 2023,
+            "operational": 16,
+            "committed": 17
+          },
+          {
+            "year": 2024,
+            "operational": 17.8,
+            "committed": 17.8
+          }
+        ]
+      },
+      "donuts": [
+        {
+          "title": "Supplier procurement mechanisms",
+          "data": [
+            {
+              "name": "Renewable energy certificates",
+              "value": 59,
+              "color": "#1d1d1f"
+            },
+            {
+              "name": "Power purchase agreements",
+              "value": 36,
+              "color": "#6e6e73"
+            },
+            {
+              "name": "Direct investment",
+              "value": 4,
+              "color": "#d2d2d7"
+            },
+            {
+              "name": "Onsite renewable",
+              "value": 1,
+              "color": "#f5f5f7"
+            }
+          ]
+        },
+        {
+          "title": "Supplier energy technologies",
+          "data": [
+            {
+              "name": "Solar",
+              "value": 49,
+              "color": "#1d1d1f"
+            },
+            {
+              "name": "Wind",
+              "value": 48,
+              "color": "#6e6e73"
+            },
+            {
+              "name": "Other",
+              "value": 3,
+              "color": "#d2d2d7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "environment/water",
+      "title": "Water & Waste",
+      "eyebrow": "Resources · Water & Zero Waste",
+      "header": "Stewarding water and eliminating waste",
+      "body": [
+        "Apple is committed to replenishing all corporate freshwater withdrawals in high-stress locations by 2030. The company has achieved 40% of that goal to date. The Supplier Clean Water Program saved 14 billion gallons of freshwater in FY2024, with participating sites averaging a 42% water reuse rate.",
+        "Corporate waste diversion reached 70% in FY2024. Zero waste to landfill has been maintained at all established final assembly sites since 2018."
+      ],
+      "goals": [
+        {
+          "label": "Freshwater replenishment (high-stress locations)",
+          "current": 40,
+          "target": 100,
+          "targetYear": 2030,
+          "unit": "%"
+        },
+        {
+          "label": "Supplier Clean Water average reuse rate",
+          "current": 42,
+          "target": 50,
+          "targetYear": 2030,
+          "unit": "%"
+        },
+        {
+          "label": "Corporate facilities waste diversion",
+          "current": 70,
+          "target": 100,
+          "targetYear": 2025,
+          "unit": "%"
+        },
+        {
+          "label": "AWS-certified Apple-owned data centers",
+          "current": 7,
+          "target": 7,
+          "targetYear": 2025,
+          "unit": "sites"
+        }
+      ],
+      "waterTrend": {
+        "type": "bar",
+        "yLabel": "Million gallons",
+        "data": [
+          {
+            "year": 2020,
+            "freshwater": 1168,
+            "recycled": 113,
+            "other": 5
+          },
+          {
+            "year": 2021,
+            "freshwater": 1259,
+            "recycled": 141,
+            "other": 7
+          },
+          {
+            "year": 2022,
+            "freshwater": 1380,
+            "recycled": 142,
+            "other": 5
+          },
+          {
+            "year": 2023,
+            "freshwater": 1411,
+            "recycled": 151,
+            "other": 48
+          },
+          {
+            "year": 2024,
+            "freshwater": 1532,
+            "recycled": 197,
+            "other": 27
+          }
+        ]
+      },
+      "waste": {
+        "type": "bar",
+        "yLabel": "Millions of pounds",
+        "data": [
+          {
+            "year": 2020,
+            "recycled": 63.8,
+            "composted": 6.3,
+            "landfilled": 25.8
+          },
+          {
+            "year": 2021,
+            "recycled": 73.5,
+            "composted": 4.8,
+            "landfilled": 33.2
+          },
+          {
+            "year": 2022,
+            "recycled": 78.6,
+            "composted": 3.1,
+            "landfilled": 33.3
+          },
+          {
+            "year": 2023,
+            "recycled": 81.8,
+            "composted": 2.9,
+            "landfilled": 38.3
+          },
+          {
+            "year": 2024,
+            "recycled": 81,
+            "composted": 2.5,
+            "landfilled": 41.4
+          }
+        ]
+      },
+      "kpis": [
+        {
+          "value": "1,756 Mgal",
+          "label": "Total corporate water use, FY2024"
+        },
+        {
+          "value": "14,000 Mgal",
+          "label": "Freshwater saved by supplier program, FY2024"
+        },
+        {
+          "value": "70%",
+          "label": "Corporate waste diversion rate, FY2024"
+        },
+        {
+          "value": "Zero",
+          "label": "Landfill at all final assembly sites (since 2018)"
+        }
+      ],
+      "footnote": "Water data covers corporate facilities. Supply chain water footprint tracked separately via Clean Water Program. Source: Apple Environmental Progress Report, Fiscal Year 2024."
+    },
+    {
+      "slug": "product/lifecycle",
+      "title": "Product Lifecycle",
+      "eyebrow": "Design · Durability & Repairability",
+      "header": "Designing products that last",
+      "body": [
+        "Apple designs products for durability, repairability, and recovery from the earliest stages. The iPhone 16 introduced a new low-voltage battery removal process. Repair Assistant, launched with iOS 18, allows configuration of new and used Apple parts directly on device. Parts availability extends up to 7 years, with Mac laptop battery repair available for up to 10 years.",
+        "In FY2021, Apple sent 12.2 million devices and accessories to new owners for reuse via trade-in programs in 25 countries. The Daisy robot disassembles up to 23 iPhone models; Dave recovers tungsten and rare earth elements from Taptic Engines; Taz recycles modules containing rare earth magnets."
+      ],
+      "features": [
+        {
+          "title": "Durability",
+          "body": "Products tested against strict durability standards mimicking real-world conditions. Ceramic Shield glass 50% tougher than first generation. IP68 water resistance across flagship lineup."
+        },
+        {
+          "title": "Repairability",
+          "body": "Parts available up to 7 years post-sale. Mac laptop battery repair up to 10 years. Over 5,000 AASP locations and 3,000+ Independent Repair Providers worldwide. Self Service Repair launched 2022."
+        },
+        {
+          "title": "Material recovery",
+          "body": "Daisy disassembles up to 23 iPhone models. Dave recovers tungsten, rare earth elements, and steel from Taptic Engines. Taz recycles rare earth magnet modules."
+        },
+        {
+          "title": "Product carbon footprint",
+          "body": "iPhone 16: 56–97 kg CO₂e depending on configuration. MacBook Air 15-inch (M4): 147–155 kg CO₂e. Full LCA certified to ISO 14040/14044 by Fraunhofer Institute."
+        }
+      ],
+      "productFootprint": {
+        "title": "Carbon footprint by product (kg CO₂e, base configuration)",
+        "data": [
+          {
+            "product": "iPhone 16e",
+            "value": 48
+          },
+          {
+            "product": "iPhone 16",
+            "value": 56
+          },
+          {
+            "product": "iPhone 16 Plus",
+            "value": 60
+          },
+          {
+            "product": "iPhone 16 Pro",
+            "value": 66
+          },
+          {
+            "product": "iPhone 16 Pro Max",
+            "value": 74
+          },
+          {
+            "product": "HomePod mini",
+            "value": 42
+          },
+          {
+            "product": "HomePod (2nd gen)",
+            "value": 92
+          },
+          {
+            "product": "MacBook Air 13\" (M4)",
+            "value": 120
+          },
+          {
+            "product": "MacBook Air 15\" (M4)",
+            "value": 147
+          },
+          {
+            "product": "MacBook Pro 14\" (M4)",
+            "value": 198
+          },
+          {
+            "product": "MacBook Pro 16\" (M4 Pro)",
+            "value": 279
+          },
+          {
+            "product": "Studio Display",
+            "value": 544
+          }
+        ]
+      },
+      "kpis": [
+        {
+          "value": "7 yrs",
+          "label": "Parts availability post-sale"
+        },
+        {
+          "value": "12.2M",
+          "label": "Devices sent to new owners for reuse (FY2021)"
+        },
+        {
+          "value": "3",
+          "label": "Disassembly robots: Daisy, Dave, Taz"
+        },
+        {
+          "value": "ISO 14040/44",
+          "label": "LCA certification standard (Fraunhofer)"
+        }
+      ]
+    },
+    {
+      "slug": "product/material",
+      "title": "Material",
+      "eyebrow": "Materials · Recycled & Responsible",
+      "header": "Transitioning to recycled and renewable materials",
+      "body": [
+        "In 2024, 24 percent of the materials shipped in Apple products came from recycled sources. Apple is committed to one day using only recycled or renewable materials. Key FY2024 milestones: 99% recycled tungsten, 99% recycled rare earth elements in all magnets, 76% recycled cobalt, 71% recycled aluminum, 53% recycled lithium, 40% recycled gold.",
+        "Packaging plastic has been reduced by more than 75% since 2015. In FY2024, fiber transitions avoided 1,700 metric tons of plastic. The goal is to remove all plastics from packaging by end of 2025."
+      ],
+      "materials": [
+        {
+          "name": "Tungsten",
+          "current": 99,
+          "target": 100,
+          "targetYear": 2025
+        },
+        {
+          "name": "Rare earth elements",
+          "current": 80,
+          "target": 100,
+          "targetYear": 2025
+        },
+        {
+          "name": "Cobalt",
+          "current": 76,
+          "target": 100,
+          "targetYear": 2025
+        },
+        {
+          "name": "Aluminum",
+          "current": 71,
+          "target": 100,
+          "targetYear": 2030
+        },
+        {
+          "name": "Lithium",
+          "current": 53,
+          "target": 100,
+          "targetYear": 2030
+        },
+        {
+          "name": "Gold",
+          "current": 40,
+          "target": 100,
+          "targetYear": 2025
+        }
+      ],
+      "packaging": {
+        "title": "Packaging composition (% by mass)",
+        "data": [
+          {
+            "year": 2019,
+            "recycledFiber": 59,
+            "virginFiber": 33,
+            "plastic": 8
+          },
+          {
+            "year": 2020,
+            "recycledFiber": 60,
+            "virginFiber": 35,
+            "plastic": 6
+          },
+          {
+            "year": 2021,
+            "recycledFiber": 63,
+            "virginFiber": 33,
+            "plastic": 4
+          },
+          {
+            "year": 2022,
+            "recycledFiber": 65,
+            "virginFiber": 31,
+            "plastic": 4
+          },
+          {
+            "year": 2023,
+            "recycledFiber": 67,
+            "virginFiber": 30,
+            "plastic": 3
+          },
+          {
+            "year": 2024,
+            "recycledFiber": 70,
+            "virginFiber": 28,
+            "plastic": 2
+          }
+        ]
+      },
+      "kpis": [
+        {
+          "value": "24%",
+          "label": "Total recycled/renewable materials in products (FY2024)"
+        },
+        {
+          "value": "99%",
+          "label": "Recycled tungsten in products"
+        },
+        {
+          "value": "99%",
+          "label": "Recycled rare earth elements in all magnets"
+        },
+        {
+          "value": "1,700 mt",
+          "label": "Plastic avoided via fiber packaging transitions (FY2024)"
+        }
+      ],
+      "footnote": "Material percentages reflect certified recycled content and supplier-reported data. Packaging data from Apple Environmental Progress Report FY2024."
+    },
+    {
+      "slug": "social/people",
+      "title": "Our People",
+      "eyebrow": "Our People · Inclusion & Development",
+      "header": "Creating an inclusive, safe and supportive environment",
+      "body": [
+        "With over 164,000 team members worldwide, Apple's people are at the heart of everything we do. Since 2017, Apple has achieved and maintained gender pay equity for employees worldwide. In the U.S., pay equity has also been achieved with respect to race and ethnicity — as well as at the intersections of race, ethnicity and gender.",
+        "In calendar year 2021, 47% of open leadership roles were filled by women globally — a 10 percentage point increase from 2020. Apple's more than 15,000 managers receive training in unconscious bias and inclusive leadership. 185,000 hours of inclusion and diversity training were delivered in calendar year 2021."
+      ],
+      "workforce": {
+        "total": 164000,
+        "gender": [
+          {
+            "name": "Male",
+            "value": 65.2,
+            "color": "#1d1d1f"
+          },
+          {
+            "name": "Female",
+            "value": 34.8,
+            "color": "#6e6e73"
+          }
+        ],
+        "ethnicity": [
+          {
+            "name": "White",
+            "value": 43.8,
+            "color": "#1d1d1f"
+          },
+          {
+            "name": "Asian",
+            "value": 27.9,
+            "color": "#6e6e73"
+          },
+          {
+            "name": "Hispanic/Latinx",
+            "value": 14.8,
+            "color": "#d2d2d7"
+          },
+          {
+            "name": "Black",
+            "value": 9.4,
+            "color": "#9a9a9a"
+          },
+          {
+            "name": "Multiracial",
+            "value": 3.2,
+            "color": "#c7c7cc"
+          },
+          {
+            "name": "Indigenous",
+            "value": 0.7,
+            "color": "#f5f5f7"
+          }
+        ]
+      },
+      "leadership": {
+        "title": "Open leadership roles filled — calendar year 2021",
+        "data": [
+          {
+            "category": "Women globally",
+            "value": 47
+          },
+          {
+            "category": "Women in R&D",
+            "value": 34
+          },
+          {
+            "category": "Women in retail",
+            "value": 58
+          },
+          {
+            "category": "URCs in U.S.",
+            "value": 59
+          },
+          {
+            "category": "URCs in R&D (U.S.)",
+            "value": 38
+          },
+          {
+            "category": "URCs in U.S. retail",
+            "value": 76
+          }
+        ]
+      },
+      "payEquity": {
+        "eyebrow": "Our People · Pay Equity",
+        "header": "Pay equity across every dimension, in every country",
+        "intro": "Since 2017, Apple has achieved and maintained gender pay equity for all employees worldwide. In the U.S., pay equity has also been achieved with respect to race and ethnicity — as well as at their intersections with gender. An independent third-party expert builds and runs statistical models annually to assess and resolve any differences in total compensation.",
+        "ratios": [
+          {
+            "value": "1:1",
+            "label": "Gender pay equity globally",
+            "sublabel": "Maintained since 2017",
+            "scope": "global"
+          },
+          {
+            "value": "1:1",
+            "label": "Gender pay equity in every country",
+            "sublabel": "All countries where Apple operates",
+            "scope": "global"
+          },
+          {
+            "value": "1:1",
+            "label": "Pay equity by race & ethnicity",
+            "sublabel": "United States",
+            "scope": "us"
+          },
+          {
+            "value": "1:1",
+            "label": "Pay equity at intersections of race, ethnicity & gender",
+            "sublabel": "United States — achieved 2022",
+            "scope": "us"
+          }
+        ],
+        "methodology": [
+          "Annual pay equity review covers 100% of employees globally",
+          "Total compensation assessed: base salary, bonus, and stock",
+          "Independent third-party expert builds and runs statistical models",
+          "Differences identified are resolved before the next review cycle",
+          "Global compensation history policy: salary history not requested since 2019",
+          "Job assessments ensure employees are in the correct title — a key factor in pay"
+        ],
+        "programs": [
+          {
+            "title": "Annual pay equity review",
+            "body": "Independent third-party expert assesses total compensation — base salary, bonus, and stock — on the basis of gender globally, and race and ethnicity in the U.S., resolving any differences found."
+          },
+          {
+            "title": "No salary history policy",
+            "body": "Apple does not ask candidates for salary history during recruiting — a global policy since 2019. Offers are based on compensation of current Apple employees in similar roles."
+          },
+          {
+            "title": "Annual compensation planning",
+            "body": "The People team uses analytics to assess promotion rates, performance rating distribution, and pay metrics for women vs. men and, in the U.S., for underrepresented groups vs. non-underrepresented groups."
+          }
+        ],
+        "kpis": [
+          {
+            "value": "2017",
+            "label": "Year gender pay equity first achieved globally"
+          },
+          {
+            "value": "100%",
+            "label": "Of employees covered by annual pay equity review"
+          },
+          {
+            "value": "3",
+            "label": "Components of total compensation reviewed: salary, bonus, stock"
+          },
+          {
+            "value": "20+",
+            "label": "Languages the Business Conduct Policy is available in"
+          }
+        ]
+      },
+      "training": {
+        "totalHours": 185000,
+        "year": 2021,
+        "breakdown": [
+          {
+            "name": "Inclusion & diversity",
+            "hours": 185000
+          },
+          {
+            "name": "Management (bias & inclusion)",
+            "hours": 80000
+          },
+          {
+            "name": "Apple University (all courses)",
+            "hours": 175000
+          },
+          {
+            "name": "Safety training",
+            "hours": 68249
+          }
+        ]
+      },
+      "kpis": [
+        {
+          "value": "164,000",
+          "label": "Total employees worldwide (FY2024)"
+        },
+        {
+          "value": "1:1",
+          "label": "Gender pay equity maintained since 2017"
+        },
+        {
+          "value": "185K h",
+          "label": "Inclusion & diversity training hours (FY2021)"
+        },
+        {
+          "value": "98%",
+          "label": "Employees completing business conduct training"
+        }
+      ]
+    },
+    {
+      "slug": "social/community",
+      "title": "Community",
+      "eyebrow": "Community · Investment & Impact",
+      "header": "A force for equity and opportunity",
+      "body": [
+        "Apple's Racial Equity and Justice Initiative (REJI) began in June 2020 with an initial commitment of $100 million. Additional commitments of $30 million (August 2021) and $25 million (May 2022) brought the total to $155 million+. REJI focuses on education access, criminal justice reform, and removing economic barriers for communities of color.",
+        "Apple's Employee Giving program celebrated its 10th anniversary in 2021, having raised nearly $725 million for 39,000 organizations worldwide. Over $120 million was distributed in FY2021 alone. 68,000 employees have logged almost 2 million volunteer hours since 2011."
+      ],
+      "initiatives": [
+        {
+          "title": "Racial Equity & Justice Initiative",
+          "body": "$155M+ committed since 2020. Propel Center for HBCU community, HSI Innovation Hub (Cal State Northridge), HBCU C2 Initiative at 45 campuses. Criminal justice reform and $75M in economic empowerment commitments.",
+          "stat": "$155M+"
+        },
+        {
+          "title": "Community Education Initiative",
+          "body": "147 partner institutions including 47 HBCUs across 500+ locations in 36 U.S. states and UK. Apple Developer Academy: 23 programs in 7 countries, 15,000+ graduates since 2013, 92% alumni employment rate.",
+          "stat": "147 partners"
+        },
+        {
+          "title": "Employee Giving",
+          "body": "Nearly $725 million raised for 39,000 organizations since 2011. 45,000+ employee donors in FY2021. Dollar-for-dollar matching up to $10,000 per employee per year, raised to 2:1 in times of need.",
+          "stat": "$725M raised"
+        },
+        {
+          "title": "Affordable Housing",
+          "body": "$2.5 billion commitment to address housing in California. $1 billion+ deployed across 25+ counties as of July 2021. Veterans Square (Pittsburg, CA): 30-unit 100% free housing for local veterans.",
+          "stat": "$2.5B"
+        }
+      ],
+      "donations": {
+        "title": "Total corporate donations",
+        "unit": "$M+",
+        "data": [
+          {
+            "year": "FY2019",
+            "amount": 190
+          },
+          {
+            "year": "FY2020",
+            "amount": 250
+          },
+          {
+            "year": "FY2021",
+            "amount": 250
+          }
+        ]
+      },
+      "kpis": [
+        {
+          "value": "$3B+",
+          "label": "Strategic investments & donations since FY2018"
+        },
+        {
+          "value": "$250M+",
+          "label": "Corporate donations, FY2021"
+        },
+        {
+          "value": "$725M",
+          "label": "Employee Giving raised since 2011"
+        },
+        {
+          "value": "2M h",
+          "label": "Employee volunteer hours since 2011"
+        }
+      ]
+    },
+    {
+      "slug": "social/supply",
+      "title": "Supply Chain",
+      "eyebrow": "Supply Chain · Labor & Human Rights",
+      "header": "People first across our entire supply chain",
+      "body": [
+        "Apple's supply chain spans 3 million+ people across thousands of businesses and facilities in 52 countries. The Supplier Code of Conduct and Supplier Responsibility Standards — updated annually, published in 15 languages since 2005 — set requirements across labor and human rights, health and safety, environment, ethics, and management systems.",
+        "In FY2021, 1,177 assessments were conducted in 52 countries including 211 unannounced visits — nearly double the prior year. Since 2008, more than 23.6 million supplier employees have been trained on their workplace rights. Suppliers have directly repaid $33.2 million in recruitment fees to 37,322 workers since 2008."
+      ],
+      "kpis": [
+        {
+          "value": "1,177",
+          "label": "Supplier assessments conducted (FY2021)"
+        },
+        {
+          "value": "23.6M",
+          "label": "Supplier employees trained on rights since 2008"
+        },
+        {
+          "value": "100%",
+          "label": "3TG, cobalt & lithium smelters in third-party audits"
+        },
+        {
+          "value": "$33.2M",
+          "label": "Recruitment fees repaid to 37,322 workers since 2008"
+        }
+      ],
+      "assessments": {
+        "title": "Supplier assessments conducted",
+        "type": "bar",
+        "data": [
+          {
+            "year": 2018,
+            "total": 756,
+            "unannounced": 120
+          },
+          {
+            "year": 2019,
+            "total": 1052,
+            "unannounced": 167
+          },
+          {
+            "year": 2020,
+            "total": 1121,
+            "unannounced": 107
+          },
+          {
+            "year": 2021,
+            "total": 1177,
+            "unannounced": 211
+          }
+        ]
+      },
+      "compliance": [
+        {
+          "label": "Direct manufacturing spend covered by audits (since 2007)",
+          "current": 94,
+          "target": 100
+        },
+        {
+          "label": "3TG smelters/refiners in independent audits",
+          "current": 100,
+          "target": 100
+        },
+        {
+          "label": "Cobalt smelters/refiners in independent audits",
+          "current": 100,
+          "target": 100
+        },
+        {
+          "label": "Lithium smelters/refiners in independent audits",
+          "current": 100,
+          "target": 100
+        }
+      ],
+      "programs": [
+        {
+          "title": "Worker Voice",
+          "body": "352,589 supplier employees directly engaged via interviews and satisfaction surveys in FY2021 — nearly double the prior year. Anonymous third-party hotlines available in any language, 24/7. 22% increase in hotline utilization following awareness campaign."
+        },
+        {
+          "title": "Forced Labor Prevention",
+          "body": "Zero tolerance for forced labor. 1,100+ assessments in FY2021 — zero instances of forced labor found. Responsible Labor Recruitment Toolkit deployed to 39+ facilities in 10 countries, reaching ~77,000 workers."
+        },
+        {
+          "title": "Education & Development",
+          "body": "$50 million Supplier Employee Development Fund announced March 2022. 5 million supplier employees have benefited from learning programs since 2008. New Apple Education Hub launching in U.S., China, India, and Vietnam."
+        }
+      ],
+      "footnote": "Source: Apple 2022 ESG Report and People & Environment in Our Supply Chain Annual Progress Report. Assessment data from FY2021 unless otherwise noted."
+    },
+    {
+      "slug": "governance/board",
+      "title": "Board & Leadership",
+      "eyebrow": "Governance · Board Composition",
+      "header": "A diverse, independent board overseeing ESG at the highest level",
+      "body": [
+        "Apple's Board of Directors, assisted by its standing committees, has ultimate responsibility for oversight of significant risks — including environmental, social, and governance matters. The full Board directly oversees Apple's Human Rights Policy implementation and environmental goals and initiatives.",
+        "More than half of Board members identify as women and/or members of Asian, Black, Hispanic/Latinx, LGBTQ+, and veterans communities. Women hold half of Board and committee leadership positions. The Compensation Committee incorporated an ESG Modifier into executive annual cash incentives beginning in 2021, based on progress across Apple's six core values."
+      ],
+      "board": {
+        "total": 8,
+        "independent": 5,
+        "avgAge": 67.4,
+        "avgTenure": 9.8,
+        "gender": [
+          {
+            "name": "Male",
+            "value": 50,
+            "color": "#1d1d1f"
+          },
+          {
+            "name": "Female",
+            "value": 50,
+            "color": "#6e6e73"
+          }
+        ],
+        "ethnicity": [
+          {
+            "name": "White",
+            "value": 62.5,
+            "color": "#1d1d1f"
+          },
+          {
+            "name": "Black",
+            "value": 12.5,
+            "color": "#6e6e73"
+          },
+          {
+            "name": "Hispanic/Latino",
+            "value": 12.5,
+            "color": "#d2d2d7"
+          },
+          {
+            "name": "Asian",
+            "value": 12.5,
+            "color": "#f5f5f7"
+          }
+        ]
+      },
+      "committees": [
+        {
+          "name": "Audit and Finance Committee",
+          "members": 3,
+          "independent": 3,
+          "esgRole": "Oversees Green Bond Impact reporting, privacy & data security risks, enterprise risk management. Reviews tax matters and financial reporting."
+        },
+        {
+          "name": "Compensation Committee",
+          "members": 3,
+          "independent": 3,
+          "esgRole": "ESG Modifier incorporated into executive annual cash incentive program since 2021, covering accessibility, education, environment, inclusion & diversity, privacy, and supplier responsibility."
+        },
+        {
+          "name": "Nominating & Corporate Governance Committee",
+          "members": 3,
+          "independent": 3,
+          "esgRole": "Board composition and governance practices. Director independence and succession planning."
+        }
+      ],
+      "kpis": [
+        {
+          "value": "8",
+          "label": "Board members"
+        },
+        {
+          "value": "50%",
+          "label": "Female board members"
+        },
+        {
+          "value": "67.4",
+          "label": "Average board member age"
+        },
+        {
+          "value": "9.8 yrs",
+          "label": "Average board tenure"
+        }
+      ]
+    },
+    {
+      "slug": "governance/risk",
+      "title": "Risk & Compliance",
+      "eyebrow": "Governance · Risk Management",
+      "header": "Enterprise risk management integrated with ESG",
+      "body": [
+        "Apple's Enterprise Risk Management Program identifies, assesses, monitors, manages, and mitigates significant business risks — including financial, operational, compliance, and reputational risks. A Risk Oversight Committee composed of the CFO, General Counsel, Head of Business Assurance, and senior business leaders reports to the Audit and Finance Committee.",
+        "In 2021, key focus areas included health and safety, environment, people, privacy and data security, supply chain and operations, and legal and regulatory risks including antitrust. Apple conducted a TCFD-aligned climate scenario analysis in 2020, considering a range of future scenarios including below 2°C."
+      ],
+      "riskAreas": [
+        {
+          "name": "Climate transition risk",
+          "level": "high",
+          "trend": "monitored",
+          "body": "TCFD-aligned scenario analysis conducted in 2020. Apple 2030 roadmap directly addresses climate transition risks. Carbon pricing and regulatory changes tracked continuously across all regions of operation."
+        },
+        {
+          "name": "Supply chain & human rights",
+          "level": "high",
+          "trend": "active",
+          "body": "1,177 supplier assessments in FY2021 across 52 countries including 211 unannounced visits. ESCI team within Worldwide Operations reports to senior management. Human Rights Policy overseen directly by Board of Directors."
+        },
+        {
+          "name": "Privacy & data security",
+          "level": "high",
+          "trend": "active",
+          "body": "ISO 27001 and ISO 27018 certified with yearly audits. Audit and Finance Committee regularly reviews privacy and data security risks. Chief Privacy Officer reports to SVP and General Counsel, who chairs the Privacy Steering Committee."
+        },
+        {
+          "name": "Regulatory & antitrust",
+          "level": "medium",
+          "trend": "monitored",
+          "body": "Anti-corruption, antitrust, export/sanctions, and third-party compliance programs. Third-party compliance program rated 'mature and leading practice' by two external parties. 98% employee training completion in FY2021."
+        },
+        {
+          "name": "Reputational risk",
+          "level": "medium",
+          "trend": "monitored",
+          "body": "EthicsPoint third-party reporting service available 24/7, multilingual, anonymous where legally permitted. Business Conduct Helpline for employees and external parties. Annual independent program assessments."
+        }
+      ],
+      "kpis": [
+        {
+          "value": "TCFD",
+          "label": "Climate scenario analysis framework adopted"
+        },
+        {
+          "value": "ISO 27001",
+          "label": "Information security certification"
+        },
+        {
+          "value": "ISO 27018",
+          "label": "Cloud privacy certification"
+        },
+        {
+          "value": "98%",
+          "label": "Employees completing annual conduct training (FY2021)"
+        }
+      ]
+    },
+    {
+      "slug": "governance/ethics",
+      "title": "Ethics & Transparency",
+      "eyebrow": "Governance · Ethics & Reporting",
+      "header": "Conducting business with integrity and full transparency",
+      "body": [
+        "Apple's Business Conduct Policy guides ethical requirements for all employees — available in over 20 languages. It covers honesty, respect, confidentiality, and compliance. All employees complete an annual scenario-based online Business Conduct training updated each year. In FY2021, 98% of employees completed this training, representing 902,000 Apple training courses and 432,000 hours.",
+        "Apple does not make political contributions to individual candidates or parties and has no political action committee. Since February 2016, Apple has issued a total of $4.7 billion in green bonds — the November 2019 issuance of €2 billion was Apple's first green bond in Europe."
+      ],
+      "kpis": [
+        {
+          "value": "98%",
+          "label": "Employees completing business conduct training (FY2021)"
+        },
+        {
+          "value": "902K",
+          "label": "Apple training courses completed (FY2021)"
+        },
+        {
+          "value": "432K h",
+          "label": "Hours spent on required trainings (FY2021)"
+        },
+        {
+          "value": "$4.7B",
+          "label": "Total green bonds issued since 2016"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Global Reporting Initiative (GRI)",
+          "status": "Aligned",
+          "since": "Ongoing"
+        },
+        {
+          "name": "SASB",
+          "status": "Aligned",
+          "since": "Ongoing"
+        },
+        {
+          "name": "TCFD",
+          "status": "Aligned",
+          "since": "2020"
+        },
+        {
+          "name": "CDP Climate Change",
+          "status": "A− rating",
+          "since": "Ongoing"
+        },
+        {
+          "name": "Science Based Targets initiative",
+          "status": "Validated",
+          "since": "2022"
+        },
+        {
+          "name": "UN Guiding Principles (UNGPs)",
+          "status": "Aligned",
+          "since": "Ongoing"
+        }
+      ],
+      "bonds": {
+        "total": "$4.7B",
+        "label": "Total green bonds issued since 2016",
+        "issuances": [
+          {
+            "year": 2016,
+            "amount": "$1.5B",
+            "label": "First green bond"
+          },
+          {
+            "year": 2017,
+            "amount": "$1.0B",
+            "label": "Second green bond"
+          },
+          {
+            "year": 2019,
+            "amount": "€2.0B (~$2.2B)",
+            "label": "Third green bond — first in Europe"
+          }
+        ],
+        "allocationCategories": [
+          {
+            "name": "Low-carbon design & engineering",
+            "pct": 47
+          },
+          {
+            "name": "Renewable energy",
+            "pct": 32
+          },
+          {
+            "name": "Energy efficiency",
+            "pct": 13
+          },
+          {
+            "name": "Carbon mitigation & sequestration",
+            "pct": 8
+          }
+        ]
+      },
+      "mandatoryTraining": [
+        "Business Conduct (workplace behaviors, conflicts of interest, gifts, confidentiality, competition, privacy, Human Rights Policy)",
+        "Privacy and data security (with additional training for employees with access to customer data)",
+        "Respect at Apple",
+        "Inclusion and Diversity",
+        "Anti-Corruption",
+        "Antitrust and Competition Law",
+        "Export and Sanctions Compliance"
+      ],
+      "footnote": "Training data from calendar year 2021. Green bond data covers FY2020–FY2024 allocation period. Source: Apple 2022 ESG Report and Apple Environmental Progress Report FY2024."
+    }
+  ],
+  "landing": {
+    "hero": {
+      "eyebrow": "NordaGroup — Impact Report 2026",
+      "headline": "We've reduced our emissions by over 60%",
+      "highlightWord": "60%",
+      "body": "This milestone brings us closer than ever to our 2030 commitment — to become carbon neutral across our entire global footprint by using more recycled materials, renewable electricity, and lower-carbon transportation.",
+      "ctaPrimary": "Explore our progress",
+      "ctaSecondary": "Report Summary",
+      "statCards": [
+        {
+          "pillar": "Environment",
+          "value": "84",
+          "unit": "%",
+          "label": "Renewable electricity"
+        },
+        {
+          "pillar": "Social",
+          "value": "97",
+          "unit": "%",
+          "label": "Supplier compliance"
+        }
+      ]
+    },
+    "impactNumbers": {
+      "eyebrow": "By the numbers",
+      "heading": "A decade of measurable progress",
+      "body": [
+        "Since 2015, we have systematically transformed how we operate — from the energy we use to the materials we source and the communities we serve. These numbers represent real change, not targets.",
+        "Every metric is independently verified and reported against the GRI Standards framework, ensuring full transparency with our stakeholders."
+      ],
+      "ctaLabel": "Read full methodology",
+      "stats": [
+        {
+          "pillar": "Environment",
+          "value": 60,
+          "unit": "%",
+          "description": "Reduction in Scope 1 & 2 emissions since 2015"
+        },
+        {
+          "pillar": "Product",
+          "value": 84,
+          "unit": "%",
+          "description": "Products made with recyclable materials"
+        },
+        {
+          "pillar": "Social",
+          "value": 42,
+          "unit": "k",
+          "description": "Metric tons of waste diverted from landfill"
+        },
+        {
+          "pillar": "Governance",
+          "value": 97,
+          "unit": "%",
+          "description": "Supplier code of conduct compliance"
+        }
+      ]
+    },
+    "pillars": [
+      {
+        "index": "01",
+        "letter": "E",
+        "title": "Environment",
+        "subtitle": "Climate & Planet",
+        "description": "From renewable energy to biodiversity protection — how we are restoring balance with the natural world.",
+        "href": "/reader#environment",
+        "image": "/img/pillars-e.jpg",
+        "accentColor": "#4ade80"
+      },
+      {
+        "index": "02",
+        "letter": "P",
+        "title": "Product",
+        "subtitle": "Design & Innovation",
+        "description": "Building recyclable, durable, responsible products that reduce lifecycle impact at every stage.",
+        "href": "/reader#product-lifecycle",
+        "image": "/img/pillars-p.jpg",
+        "accentColor": "#fb923c"
+      },
+      {
+        "index": "03",
+        "letter": "S",
+        "title": "Social",
+        "subtitle": "People & Community",
+        "description": "Investing in our people, protecting human rights across our supply chain, and giving back to communities.",
+        "href": "/reader#social-people",
+        "image": "/img/pillars-s.jpg",
+        "accentColor": "#60a5fa"
+      },
+      {
+        "index": "04",
+        "letter": "G",
+        "title": "Governance",
+        "subtitle": "Ethics & Transparency",
+        "description": "How we govern ourselves — board accountability, risk management, and full disclosure to stakeholders.",
+        "href": "/reader#governance-board",
+        "image": "/img/pillars-g.jpg",
+        "accentColor": "#a78bfa"
+      }
+    ],
+    "reportCta": {
+      "eyebrow": "NordaGroup — 2026",
+      "heading": "Read the full\nImpact Report.",
+      "body": "Download the complete 2026 report or explore each pillar online — environment, social, governance and product.",
+      "ctaDownload": "Download PDF",
+      "ctaExplore": "Explore sections",
+      "pdfPath": "/docs/report.pdf"
+    }
+  }
+}

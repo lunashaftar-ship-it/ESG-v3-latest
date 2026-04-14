@@ -1,0 +1,5 @@
+model Landing {
+  id   Int    @id @default(autoincrement())
+  key  String @unique
+  data Json
+}

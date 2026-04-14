@@ -1,0 +1,88 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id      Int    @id @default(autoincrement())
+  nome    String
+  cognome String
+}
+
+model Slide {
+  id         Int              @id @unique(map: "new_id") @default(autoincrement())
+  slug       String           @unique
+  title      String
+  category   String
+  header     String?          @db.Text
+  eyebrow    String?
+  charts     Slidechart[]
+  kpis       Slidekpi[]
+  paragraphs Slideparagraph[]
+}
+
+model Slideparagraph {
+  id      Int    @id @default(autoincrement())
+  content String @db.Text
+  slideId Int?
+  slide   Slide? @relation(fields: [slideId], references: [id], onDelete: Cascade, map: "fk_slide_paragraph")
+
+  @@index([slideId], map: "fk_slide_paragraph")
+  @@map("Slideparagraph")
+}
+
+model Slidekpi {
+  id      Int    @id @default(autoincrement())
+  value   String
+  label   String
+  slideId Int?
+  slide   Slide? @relation(fields: [slideId], references: [id], onDelete: Cascade, map: "fk_slide_kpi")
+
+  @@index([slideId], map: "fk_slide_kpi")
+  @@map("Slidekpi")
+}
+
+model Slidechart {
+  id        Int     @id @default(autoincrement())
+  title     String?
+  chartType String
+  data      String  @db.LongText
+  slideId   Int?
+  slide     Slide?  @relation(fields: [slideId], references: [id], onDelete: Cascade, map: "fk_slide_chart")
+
+  @@index([slideId], map: "fk_slide_chart")
+  @@map("Slidechart")
+}
+
+model Landing {
+  id   Int    @id @default(autoincrement())
+  key  String @unique
+  data String @db.LongText
+}
+
+model Annual {
+  id                     Int                @id @default(autoincrement()) @db.UnsignedInt
+  company_slug           String             @db.VarChar(100)
+  year                   Int                @db.UnsignedInt
+  report_type            Annual_report_type @default(actual)
+  title                  String             @db.VarChar(255)
+  summary                String?            @db.Text
+  published              Boolean            @default(true)
+  baseline_emissions_mt  Decimal?           @db.Decimal(6, 2)
+  total_emissions_mt     Decimal?           @db.Decimal(6, 2)
+  projected_emissions_mt Decimal?           @db.Decimal(6, 2)
+  reduction_vs_2015_pct  Decimal?           @db.Decimal(5, 2)
+  created_at             DateTime           @default(now()) @db.Timestamp(0)
+  updated_at             DateTime           @default(now()) @db.Timestamp(0)
+
+  @@unique([company_slug, year], map: "uniq_company_year")
+}
+
+enum Annual_report_type {
+  actual
+  projected
+}
